@@ -1,0 +1,5 @@
+fastapi            # Web framework for API endpoints
+uvicorn            # High-performance ASGI server
+scrapling[all]     # Stealthy browser automation and network interception
+pydantic>=2.11.0   # Robust data validation and settings management
+httpx              # Async HTTP client for file proxying and downloads
