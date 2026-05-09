@@ -17,7 +17,6 @@ A high-performance, full-stack media extraction engine. Designed for precision s
 - **🕵️ Stealth Mode** — Leverages headless automation to bypass bot detection and solve complex challenges like Cloudflare.
 - **📡 Network Interception** — Sniffs out HLS/Dash video streams and media assets directly from network traffic.
 - **🖼️ High-Res Refinement** — Automatically resolves high-resolution versions of thumbnails and lazy-loaded assets.
-- **⚡ Staggered Glassmorphism** — Premium UI experience with smooth animations and responsive layouts.
 - **📦 Download Proxy** — Bypass CORS restrictions and browser sandboxing with an integrated asset proxy.
 
 ---
@@ -27,7 +26,7 @@ A high-performance, full-stack media extraction engine. Designed for precision s
 | Layer | Technology |
 | :--- | :--- |
 | **Frontend** | React 18, TypeScript, Vite, Vanilla CSS |
-| **Backend** | Python 3.11+, FastAPI, Scrapling |
+| **Backend** | Python 3.11+, FastAPI, [Scrapling](https://github.com/D4Vinci/Scrapling) |
 | **Networking** | HTTPX, Playwright (via StealthyFetcher) |
 | **Security** | Pydantic validation, SSRF Filter, CORS Middleware |
 
@@ -79,6 +78,10 @@ This project implements strict **SSRF (Server-Side Request Forgery) protection**
 - Link-local addresses
 
 ---
+
+## 📜 Credits
+
+Special thanks to **[D4Vinci](https://github.com/D4Vinci)** for the **[Scrapling](https://github.com/D4Vinci/Scrapling)** framework, which powers the high-performance extraction engine of this project.
 
 ## 📄 License
 
